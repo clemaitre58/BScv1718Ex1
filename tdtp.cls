@@ -8,12 +8,10 @@
 
 \usepackage{fullpage,amsmath,amssymb,times,subfigure}
 \usepackage[final]{graphicx}
+\usepackage[T1]{fontenc}
 \usepackage{multirow,fancybox,pifont,multido}
 \usepackage[misc,geometry]{ifsym}
 \usepackage{geometry}
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage[frenchb]{babel}
 
 \geometry{hmargin=1.8cm, vmargin=2.3cm }
 
@@ -37,15 +35,9 @@
 \newcommand{\Exo}{%
 \vspace{20pt}
 \par
-{\hspace{-1.2cm}\raisebox{-2pt}{$\llcorner$}~~\bf Exercice \theexercicecount~~\raisebox{2pt}{$\urcorner$}}
+{\hspace{-1.2cm}\raisebox{-2pt}{$\llcorner$}~~\bf Problem \theexercicecount~~\raisebox{2pt}{$\urcorner$}}
 \\[12pt]
  	\addtocounter{exercicecount}{1}
-	}
-\newcommand{\Note}{%
-\vspace{20pt}
-\par
-{\hspace{-1.2cm}\raisebox{-2pt}{$\llcorner$}~~\bf Notes ~~\raisebox{2pt}{$\urcorner$}}
-\\[12pt]
 	}
 	
 %
